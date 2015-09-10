@@ -1,0 +1,329 @@
+.navbar-right {
+
+	float: right;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+
+/*
+bootstrap fixes*/
+.row {
+
+	margin-top: 35px; /*10px*/
+}
+
+body {
+
+	font-family: 'Avenir Next', Avenir, sans-serif;
+	font-size: 0.875rem;
+	background-color: #f1efed;
+}
+
+
+h5 {
+
+	font-size: 1em;
+}
+
+
+/*top*/
+.navbar-default.headerProfile, .navbar-brand.headerProfile {
+
+	background-color: #6605B6;
+	font-size: 1.3125em; /*21px*/
+	font-weight: 300;
+	border: none;
+	color: #fff !important;
+}
+
+.navbar-default {
+
+	-webkit-box-shadow: 0 12px 8px -8px #d4d1d1;
+    -moz-box-shadow: 0 12px 8px -8px #d4d1d1;
+    box-shadow: 0 20px 8px -8px #d4d1d1;
+    border-radius: 0 !important;
+}
+
+.navbar-default .navbar-text, .navbar-default .navbar-text a {
+
+	color: #ffffff;
+}
+
+.material-icons.headerIcons {
+
+	padding-left: 15px;
+	margin-top: 3px;
+}
+
+.material-icons.headerIcons:first-child {
+
+	padding-left: 0px;
+}
+
+.alertActivity {
+
+	top: -26px;
+	right: -5px;
+	position: absolute;
+	color: #;
+	font-size: 35px;
+}
+
+
+
+.material-icons.headerIcons.activity {
+
+	border-bottom: 0px solid #4527A0;
+	position: relative;
+}
+
+
+.userPicHeader.headerIcons {
+
+	width: 24px;
+	height: 24px;
+	vertical-align: baseline;
+}
+
+.navbar-default .navbar-brand {
+
+	margin-top: 5px;
+}
+
+.nav-wrapper
+{
+    min-height:50px;
+}
+
+
+
+
+/*
+define styles for all sections*/
+section {
+
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 10px 15px 15px 15px;
+	margin: 10px 10px;
+	border: 1px solid #e6e7e8;
+}
+
+.contentLeftSection {
+border: 0px solid #ffffff;
+
+}
+
+.col-md-3 {
+min-height: 1px;
+
+}
+
+/*
+
+contentLeft*/
+
+.contentLeft {
+
+	border: 1px solid #f2f2f2;
+	float: none;
+	display: inline-block;
+	background-color: #ffffff;
+	padding: 5px;
+	border-radius: 5px;
+	min-height: 1px;
+/*	max-width: 260px;*/
+
+}
+
+.profilePic figure, figure img { 
+
+	max-width: 200px; 
+	max-height: 200px;
+	margin-bottom: 1rem; 
+	text-align: center; 
+	margin: 0 auto;
+	border-radius: 50%;
+	position: relative; 
+    box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+
+}
+
+.profilePic figcaption {
+
+padding-top: 15px;
+font-size: 1.0625em; /*17px*/
+font-weight: 600;
+text-align: center;
+
+}
+
+.profileInfo {
+
+	max-width: 230px; 
+	margin-bottom: 1em; 
+	text-align: left; 
+	margin: 0 auto;
+
+}
+
+.profileInfo h5 {
+    
+    font-size: 0.875em; /*13px*/
+    
+}
+
+.profileItem {
+
+padding-top: 0.01em;
+}
+
+.mapStore img {
+
+	width: 90%;
+	height: 90%;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+
+
+.contentMiddle {
+
+	
+	border: 1px solid #f2f2f2;
+	background-color: #ffffff;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+.favourites {
+
+	list-style: none;
+
+padding-left: 0px;
+}
+
+.favourites .favouriteItem {
+
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+
+
+.photos div {
+	width: 49%;
+  	display: inline-block;
+
+  }
+
+
+
+.photos div img {
+	display: inline-block;
+	max-width: 230px;
+	float: left;
+    margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.photos:after {
+	clear: both;
+}
+
+
+.contentRight {
+
+	border: 1px solid #f2f2f2;
+	background-color: #ffffff;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 0 auto;
+
+
+}
+
+/*Colleagues*/
+
+.blockImage {
+
+	max-height: 72px;
+	max-width: 62px;
+	display: inline-block;
+}
+
+.blockImage img {
+
+	max-height: 100%;
+	max-width: 100%;
+	border-radius: 50%;
+	position: relative;
+}
+
+
+/*.blockImageSecondRow {
+
+	max-height: 72px;
+	max-width: 62px;
+	display: inline-block;
+	padding-top: 5px;
+	position: relative;
+}
+
+.blockImageSecondRow img {
+
+	max-height: 100%;
+	max-width: 100%;
+	border-radius: 3px;
+	border-radius: 50%;
+}*/
+
+.connectGroup {
+
+	margin-top: 15px;
+}
+
+.connectIcons {
+
+	margin-bottom: 20px;
+}
+
+
+.connectIcons img {
+
+	max-width: 28px;
+	max-height: 28px;
+	display: inline-block;
+	float: left;
+	margin-right: 12px;
+
+}
+
+.connectIcons p {
+
+	padding-top: 4px;
+}
+
+.connectIcons:after {
+	clear: both;
+}
+
+
+.footer {
+
+  bottom: 0;
+  margin-top: 40px;
+  width: 100%;
+  height: 60px;
+  background-color: #F1EFED;
+}
+
+
+
+

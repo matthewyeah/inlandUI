@@ -1,0 +1,40 @@
+@media screen and (max-width: 1200px) { 
+
+
+.connectIcons p {
+
+	padding-top: 2px;
+	word-break: break-all;
+	-webkit-hyphens: auto;
+   	-moz-hyphens: auto;
+    hyphens: auto;
+
+	
+}
+
+.photos div img {
+
+	max-width: 100%;
+}
+
+
+}
+
+
+@media screen and (max-width: 991px) { 
+
+.contentLeft {
+
+	width: 100%;
+}
+
+
+@media screen and (max-width: 412px) { 
+
+.navbar-right {
+	float: left;
+
+}
+
+
+
