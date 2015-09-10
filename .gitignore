@@ -1,5 +1,5 @@
 .config
-/img/*
+assets/img/*
 /index_files/
 /config/
 .DS_Store
