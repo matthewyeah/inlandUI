@@ -1,3 +1,12 @@
+body {
+
+	font-family: 'Avenir Next', Avenir, sans-serif;
+	font-size: 0.875rem;
+	background-color: #EBEEF1;
+}
+
+/*top*/
+
 .navbar-right {
 
 	float: right;
@@ -5,29 +14,6 @@
 	margin-bottom: 0;
 }
 
-
-/*
-bootstrap fixes*/
-.row {
-
-	margin-top: 35px; /*10px*/
-}
-
-body {
-
-	font-family: 'Avenir Next', Avenir, sans-serif;
-	font-size: 0.875rem;
-	background-color: #f1efed;
-}
-
-
-h5 {
-
-	font-size: 1em;
-}
-
-
-/*top*/
 .navbar-default.headerProfile, .navbar-brand.headerProfile {
 
 	background-color: #6605B6;
@@ -97,6 +83,10 @@ h5 {
 }
 
 
+.row {
+
+	margin-top: 35px; /*10px*/
+}
 
 
 /*
@@ -110,13 +100,13 @@ section {
 	border: 1px solid #e6e7e8;
 }
 
-.contentLeftSection {
-border: 0px solid #ffffff;
+h5 {
 
+	font-size: 1em;
 }
 
-.col-md-3 {
-min-height: 1px;
+.contentLeftSection {
+border: 0px solid #ffffff;
 
 }
 
@@ -132,8 +122,6 @@ contentLeft*/
 	background-color: #ffffff;
 	padding: 5px;
 	border-radius: 5px;
-	min-height: 1px;
-/*	max-width: 260px;*/
 
 }
 
@@ -189,8 +177,6 @@ padding-top: 0.01em;
 	border-radius: 5px;
 	margin-bottom: 10px;
 }
-
-
 
 .contentMiddle {
 
@@ -265,24 +251,6 @@ padding-left: 0px;
 	border-radius: 50%;
 	position: relative;
 }
-
-
-/*.blockImageSecondRow {
-
-	max-height: 72px;
-	max-width: 62px;
-	display: inline-block;
-	padding-top: 5px;
-	position: relative;
-}
-
-.blockImageSecondRow img {
-
-	max-height: 100%;
-	max-width: 100%;
-	border-radius: 3px;
-	border-radius: 50%;
-}*/
 
 .connectGroup {
 
